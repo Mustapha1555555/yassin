@@ -59,4 +59,28 @@ body {
   .linkedin-icon {
     width: 32px;
   }
-  
+  @media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .photo-profil {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
